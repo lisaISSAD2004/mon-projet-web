@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" type="image/png" href="images/faviconAi.png"/>
+    <title>Algorithmes - IA</title>
+    
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/logoCyu.png" alt="logo de l'université" width="200" height="100"/>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projet.html">Projet</a></li>
+                <li><a href="equipe.html">Équipe</a></li>
+                <li><a href="algorithmes.html">Algorithmes</a></li>
+                <li><a href="interface.html">Interface</a></li>
+                <li><a href="realisations.html">Réalisations antérieures</a></li>
+            </ul>
+        </nav>
+        <h1>Projet Intelligence Artificielle</h1>
+    </header>
+    <!-- Menu latéral fixe -->
+    <nav class="side-menu">
+        <ul>
+            <li><a href="#a_star">Algorithme A*</a></li>
+            <li><a href="#perceptron">Perceptron</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="a_star">
+            <h2>Algorithme A*</h2>
+            <p>L'algorithme A* est un algorithme de recherche de chemin qui est largement utilisé dans les jeux vidéo et les applications de navigation. Il combine les avantages de la recherche en largeur et de la recherche en profondeur, en utilisant une heuristique pour guider la recherche vers la solution optimale.</p>
+            <p>Si vous voulez en savoir plus sur l'algorithme A*, vous pouvez consulter <a href="https://fr.wikipedia.org/wiki/Algorithme_A*" target="_blank">cette page Wikipedia</a>.</p>
+            <h3>Fonctionnement :</h3>
+            <ul>
+                <li>Utilise une fonction de coût combinant le coût du chemin parcouru et une estimation du coût restant.</li>
+                <li>Les nœuds explorés sont affichés avec le chemin optimal trouvé.</li>
+            </ul>
+            <h3>Applications :</h3>
+            <ul>
+                <li>Navigation GPS</li>
+                <li>Jeux vidéo</li>
+                <li>Robotique</li>
+            </ul>
+            <figure> <img src="images/astarGrille.png" alt="Astar"  width="300"/> <figcaption>Représentation graphique de l'algorithme A*, montrant une grille avec des nœuds et des obstacles, illustrant le processus de recherche de chemin.</figcaption></figure>
+
+        </section>
+
+        <section id="perceptron">
+            <h2>Perceptron</h2>
+            <p>Le perceptron est un modèle fondamental dans le domaine de l'apprentissage automatique et constitue la base des réseaux de neurones. Il a été introduit par Frank Rosenblatt dans les années 1950 et est souvent utilisé pour des tâches de classification binaire. Le perceptron est un classificateur linéaire qui prend des décisions en fonction d'une combinaison linéaire de ses entrées.</p>
+            <a href="https://fr.wikipedia.org/wiki/Perceptron" target="_blank">Explorez cet article sur le Perceptron pour en savoir plus</a>
+            <h3>Fonctionnement :</h3>
+            
+
+            <dl>
+                <dt>1. Structure du Perceptron :</dt>
+                <dd>
+                    Un perceptron est composé de plusieurs entrées (features), chacune associée à un poids. Les entrées peuvent représenter des caractéristiques d'un ensemble de données, comme la taille, le poids, ou d'autres attributs pertinents. Le perceptron a également un biais, qui est un paramètre supplémentaire permettant d'ajuster la sortie indépendamment des entrées.
+                </dd>
+                <dt>2. Calcul de la Sortie :</dt>
+                <dd>
+                    La sortie est calculée en effectuant une somme pondérée des entrées : z = w₁x₁ + w₂x₂ + ... + wₙxₙ + b où wᵢ sont les poids, xᵢ sont les entrées, et b est le biais. Ensuite, cette somme est passée à une fonction d’activation, généralement une fonction de seuil (step function) : Si z dépasse un certain seuil, la sortie est 1 (activée). Sinon, la sortie est 0 (non activée).
+                </dd>
+                <dt>3. Apprentissage :</dt>
+                <dd>
+                    Le perceptron apprend à partir d’exemples d’entraînement. Lors de l’apprentissage, il ajuste les poids et le biais en fonction des erreurs de classification. La mise à jour des poids suit la règle : wi = wi + η⋅(y - y^)⋅xi où η est le taux d’apprentissage, y la sortie réelle et y^ la sortie prédite.
+                </dd>
+            </dl>
+            <a href="https://fr.wikipedia.org/wiki/Perceptron#Algorithme_d'apprentissage" target="_blank">Découvrez  Algorithme d'apprentissage du  Perceptron</a>
+            <h3>Applications :</h3>
+            <ul>
+                <li>Classification binaire : utilisé pour distinguer des catégories, comme le filtrage des spams.</li>
+                <li>Reconnaissance de formes : identifie des objets selon leurs caractéristiques.</li>
+                <li>Problèmes linéaires : efficace lorsque les classes sont séparables par une ligne droite.</li>
+            </ul>
+            <figure> <img src="images/perceptron.png" alt="perceptron" width="300"/> <figcaption>Voici la représentation du Perceptron</figcaption></figure>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">Retour en haut</a>
+    </footer>
+</body>
+</html>
