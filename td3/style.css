@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #ffffff;
+}
+
+header {
+    background-color: #570e4d;
+    padding: 20px;
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #ffffff;
+}
+h2{
+    text-align: center;
+    margin: 20px 0;
+    color:#570e4d;
+    }
+
+section {
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color:#555
+}
+
+.section-alt {
+    background: #ffe6f9;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+a {
+    color:#570e4d;  
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #570e4d; 
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #570e4d;  
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #570e4d;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #570e4d;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+footer a {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff9900;
+}
+
+dl {
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer p a::before {
+    content: "📧 ";
+}
+
+
+
+
+
+

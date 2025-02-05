@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="À propos du projet Java sur les images et métadonnées.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="images/icone.png"/>
+    <title>Fonctionnalités du projet - Images et Métadonnées</title>
+</head>
+<body>
+    <header>
+        
+        <img src="images/logoCyu.png" alt="logo de l'université" width="200" height="100" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="features.html">Fonctionnalités</a></li>
+                <li><a href="results.html">Résultats</a></li>
+            </ul>
+        </nav>
+        <h1>Images et Métadonnées</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>1 - Modes d'Utilisation</h2>
+            <p>L'application propose deux modes d'utilisation :</p>
+            <ul>
+                <li><strong>Mode CLI (Ligne de Commande)</strong> : Toutes les fonctionnalités sont accessibles via des commandes. Ce mode est idéal pour une utilisation rapide et efficace, directement dans le terminal.</li>
+                <li><strong>Mode GUI (Interface Graphique)</strong> : Les mêmes fonctionnalités sont disponibles dans une interface visuelle conviviale. En plus, ce mode permet d’afficher les images, quelle que soit leur taille, grâce à un affichage adapté avec défilement (via <em>JScrollPane</em>).</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>2 - Liste des Fonctionnalités Principales</h2>
+            <dl>
+                <dt><strong>Lister les fichiers images d’un répertoire.</strong></dt>
+                <dd>Affiche tous les fichiers image présents dans un dossier spécifié.</dd>
+                
+                <dt><strong>Extraire les statistiques générales d’un répertoire :</strong></dt>
+                <dd>
+                    <dl>
+                        <dt>Nombre total de fichiers :</dt>
+                        <dd>Affiche le nombre total de fichiers dans le répertoire.</dd>
+                        <dt>Nombre d’images :</dt>
+                        <dd>Compte le nombre total d’images.</dd>
+                        <dt>Nombre d’images par format :</dt>
+                        <dd>Indique la répartition des images par format (PNG, JPEG, WEBP).</dd>
+                    </dl>
+                </dd>
+                
+                <dt><strong>Extraire les statistiques d’un fichier particulier :</strong></dt>
+                <dd>
+                    <dl>
+                        <dt>Type MIME :</dt>
+                        <dd>Affiche le type MIME du fichier.</dd>
+                        <dt>Taille du fichier :</dt>
+                        <dd>Indique la taille en kilo-octets (KB).</dd>
+                        <dt>Date de dernière modification :</dt>
+                        <dd>Affiche la date de dernière modification du fichier.</dd>
+                    </dl>
+                </dd>
+                
+                <dt><strong>Afficher les métadonnées EXIF et XMP d’une image :</strong></dt>
+                <dd>
+                    <dl>
+                        <dt>Dimensions de l’image :</dt>
+                        <dd>Affiche la largeur et la hauteur en pixels.</dd>
+                        <dt>Résolution (DPI) :</dt>
+                        <dd>Indique la résolution de l’image en points par pouce.</dd>
+                        <dt>Position GPS (GeoTag) :</dt>
+                        <dd>Affiche les coordonnées GPS si disponibles.</dd>
+                    </dl>
+                </dd>
+                
+                <dt><strong>Permettre la recherche d’images :</strong></dt>
+                <dd>
+                    <dl>
+                        <dt>Nom ou partie du nom :</dt>
+                        <dd>Recherche les images en fonction du nom.</dd>
+                    </dl>
+                </dd>
+            </dl>
+        </section>
+        
+        <section>
+            <h2>3 - Exemples Visuels</h2>
+            <p>Voici quelques exemples pour illustrer le fonctionnement du projet :</p>
+            
+            <h3>Mode CLI :</h3>
+            <figure>
+                <img src="images/captureCLI.png" alt="Les statistiques d'un répertoire et liste de ses fichiers image" width="600">
+                <figcaption>Exemple d'affichage des statistiques d'un répertoire et de la liste de ses fichiers image.</figcaption>
+            </figure>
+            
+            <h3>Mode GUI :</h3>
+            <figure>
+                <img src="images/captureGUI.png" alt="Affichage d'une image avec ses métadonnées" width="600">
+                <figcaption>Exemple d’affichage d'une image avec ses métadonnées.</figcaption>
+            </figure>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Contactez-nous :</p>
+        <p> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=achabouardia44@gmail.com" target="_blank">achabouardia44@gmail.com</a></p>
+        <p> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=issadlisa22@gmail.com" target="_blank">issadlisa22@gmail.com</a></p>
+    </footer>
+</body>
+</html>
